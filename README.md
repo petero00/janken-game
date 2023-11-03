@@ -1,0 +1,24 @@
+# janken-game
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>janken-game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>~ただのジャンケン~</h1>
+        <img src="janken_gu.png" alt="gu" id="gazo" height="300px"><br>
+        <h3 id="te">最初はグージャンケン…</h3>
+        <h3 id="jou">0勝0敗0分けでした。</h3>
+        <button class="btn-flat-border" id="gu">✊</button>
+        <button class="btn-flat-border" id="choki">🤞</button>
+        <button class="btn-flat-border" id="pa">✋</button><br><br>
+        <a href="" class="btn">もう一回</a><br><br>
+        <p>※画像はいらすとやを使っています。</p>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
